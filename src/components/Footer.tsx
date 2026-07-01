@@ -185,7 +185,17 @@ export default function Footer({ onOpenContact }: FooterProps) {
 
           {/* Right Side Columns: Separated by vertical line on large screens */}
           <div className="lg:col-span-5 lg:border-l lg:border-zinc-800/60 lg:pl-12 flex flex-col justify-between space-y-10 lg:space-y-0">
-            
+            <a href="#home" onClick={(e) => scrollToSection(e, "#home")} className="inline-flex self-start" aria-label="Oryn Systems home">
+              <img
+                src="/oryn-systems-logo.png"
+                alt="Oryn Systems"
+                width="752"
+                height="259"
+                className="h-10 w-auto object-contain"
+                loading="lazy"
+              />
+            </a>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-10">
               {/* Top half links */}
               <div className="grid grid-cols-2 gap-8">

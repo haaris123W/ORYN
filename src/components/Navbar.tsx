@@ -48,10 +48,14 @@ export default function Navbar({ onOpenContact, onOpenServiceDetail }: NavbarPro
     >
       <div className="px-6 md:px-8 flex items-center justify-between">
         {/* Brand Logo */}
-        <a href="#home" className="flex items-center group" aria-label="Home">
-          <div className="w-8 h-8 bg-[#7c3aed] rounded-full flex items-center justify-center text-white font-black text-sm transition-transform duration-250 group-hover:scale-105 shadow-md shadow-[#7c3aed]/10">
-            O
-          </div>
+        <a href="#home" className="flex items-center group" aria-label="Oryn Systems home">
+          <img
+            src="/oryn-systems-logo.png"
+            alt="Oryn Systems"
+            width="752"
+            height="259"
+            className="h-8 md:h-9 w-auto object-contain transition-transform duration-250 group-hover:scale-[1.02]"
+          />
         </a>
 
         {/* Desktop Links */}

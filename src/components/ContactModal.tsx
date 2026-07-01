@@ -131,11 +131,13 @@ export default function ContactModal({ isOpen, onClose }: ContactProps) {
             {/* Left Column: Branding / Info block */}
             <div className="w-full md:w-[320px] bg-white border-b md:border-b-0 md:border-r border-zinc-200 p-8 flex flex-col justify-between shrink-0">
               <div className="space-y-6">
-                <div className="flex items-center gap-2">
-                  <span className="font-sans font-black tracking-widest text-[#18181b] text-xs">
-                    Oryn Systems<span className="text-[#7c3aed]">.</span>
-                  </span>
-                </div>
+                <img
+                  src="/oryn-systems-logo.png"
+                  alt="Oryn Systems"
+                  width="752"
+                  height="259"
+                  className="h-9 w-auto object-contain"
+                />
 
                 <div className="space-y-3 pt-6">
                   <h4 className="font-sans font-black text-xl text-zinc-900 tracking-tighter leading-tight">

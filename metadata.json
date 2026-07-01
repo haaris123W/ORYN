@@ -1,6 +1,6 @@
 {
   "name": "Oryn Systems",
-  "description": "High-fidelity, responsive corporate landing page and client portfolio for Oryn Systems, featuring interactive calculators, project showcases, team bios, and proposal generators.",
+  "description": "Oryn Systems – The Operating System for Local Business",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

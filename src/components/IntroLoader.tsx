@@ -107,10 +107,15 @@ export default function IntroLoader({ onComplete }: { onComplete: () => void }) 
               initial={{ scale: 0.85, filter: "blur(12px)", opacity: 0 }}
               animate={{ scale: 1, filter: "blur(0px)", opacity: 1 }}
               transition={{ duration: 0.75, ease: "easeOut" }}
-              className="text-4xl md:text-6xl font-black tracking-tighter"
+              className="flex items-center justify-center"
             >
-              <span className="text-white">Oryn </span>
-              <span className="text-[#8B7FE8]">Systems</span>
+              <img
+                src="/oryn-systems-logo.png"
+                alt="Oryn Systems"
+                width="752"
+                height="259"
+                className="h-16 md:h-20 w-auto max-w-[80vw] object-contain"
+              />
             </motion.div>
           )}
         </AnimatePresence>
