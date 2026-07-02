@@ -1,8 +1,21 @@
 {
   "name": "Oryn Systems",
   "short_name": "Oryn",
-  "description": "The Operating System for Local Business",
+  "description": "Oryn Systems helps local businesses run on one connected platform with professional websites, WhatsApp automation, inventory, sales, and customer management.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
     {
       "src": "/icon-192.png",
       "sizes": "192x192",
@@ -14,7 +27,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#8A6BFF",
+  "theme_color": "#7c3aed",
   "background_color": "#09090b",
   "display": "standalone"
 }
